@@ -32,6 +32,8 @@ export const ContactForm = () => {
     }
 
     form.reset();
+    setName('');
+    setNumber('');
   };
 
   return (
